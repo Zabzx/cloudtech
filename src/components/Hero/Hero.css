@@ -1,0 +1,40 @@
+.hero {
+    background-color: black;
+    height: 90vh;
+    color: white;
+}
+
+.hero-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 2.1rem;
+    background: linear-gradient(to right, #01A0C2, white 40%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.hero-text p {
+    margin-top: .2rem;
+    font-size: 1.1rem;
+}
+
+.hero button {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.hero-img {
+    flex: 1;
+}
+
+.hero-img img {
+    height: 100%;
+}

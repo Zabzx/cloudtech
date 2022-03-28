@@ -1,3 +1,7 @@
+.nav-container {
+    background-color: black;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -66,4 +70,24 @@ nav {
 
 .menu-line + .menu-line {
     margin-top: 5px;
+}
+
+/* Mobile Design */
+@media only screen and (max-width: 600px) {
+
+    .cloud-logo {
+        font-size: 3rem;
+    }
+
+    .logo h1 {
+        font-size: 1.4rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+    }
 }
