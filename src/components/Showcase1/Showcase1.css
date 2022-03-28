@@ -1,0 +1,23 @@
+.showcase1 {
+    background-color: #E8E8E8;
+}
+
+.showcase1 h1 {
+    text-align: center;
+    padding-top: 3rem;
+    background: linear-gradient(to right, black, #01A0C2);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.s1-flex {
+    display: flex;
+    align-items: center;
+    margin-top: -4rem;
+}
+
+.s1-text {
+    font-size: 1.4rem;
+    flex: 1;
+    padding-left: 4rem;
+}
