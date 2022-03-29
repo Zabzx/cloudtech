@@ -25,6 +25,9 @@ img {
   width: 100%;
 }
 
+.color-white {
+  color: white;
+}
 
 .btn {
   padding: .6rem .8rem;
