@@ -1,0 +1,51 @@
+footer {
+    background-color: #01A0C2;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+footer h1 {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footer-content {
+    margin-top: 1rem;
+    line-height: 2;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.2rem;
+    font-size: 3rem;
+}
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.contact {
+    border-right: 3px solid white;
+    flex: 1;
+}
+
+.location {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 3px solid white;
+}
+
+.about {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.about h2 {
+    margin-right: 3rem;
+}

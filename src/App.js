@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Navigation from "./components/Navigation/Navigation";
 import Showcase1 from "./components/Showcase1/Showcase1";
@@ -10,6 +11,7 @@ function App() {
       <Hero/>
       <Showcase1/>
       <Showcase2/>
+      <Footer/>
     </div>
   );
 }
