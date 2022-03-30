@@ -12,9 +12,9 @@ const Navigation = () => {
         </div>
 
         <ul className="nav-links">
-            <li className='nav-item'><a href="" className="nav-link">Home</a></li>
-            <li className='nav-item'><a href="" className="nav-link">In Stock</a></li>
-            <li className='nav-item'><a href="" className="nav-link">Contact</a></li>
+            <li className='nav-item'><a href="index.html" className="nav-link">Home</a></li>
+            <li className='nav-item'><a href="#showcase2" className="nav-link">About</a></li>
+            <li className='nav-item'><a href="#footer" className="nav-link">Contact</a></li>
         </ul>
 
         <div className="nav-menu">

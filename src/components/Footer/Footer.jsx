@@ -5,7 +5,7 @@ import {BsInstagram} from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='footer'>
         <h1>Get in touch </h1>
 
         <div className="footer-items main-container">

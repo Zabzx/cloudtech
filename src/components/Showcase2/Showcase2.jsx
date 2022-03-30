@@ -4,7 +4,7 @@ import IMG from '../../assets/showcase2.png'
 
 const Showcase2 = () => {
   return (
-    <div className="showcase2">
+    <div className="showcase2" id='showcase2'>
         <div className="main-container">
         <div className="s2-flex">
             <div className="s2-img">
