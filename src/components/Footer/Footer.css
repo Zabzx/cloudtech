@@ -1,7 +1,7 @@
 footer {
     background-color: #01A0C2;
     color: white;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
 }
 
 footer h1 {
@@ -48,4 +48,29 @@ footer h1 {
 
 .about h2 {
     margin-right: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .contact {
+        border: none;
+    }
+
+    .location {
+        border: none;
+        align-items: flex-start;
+    }
+
+
+    .about {
+        align-items: flex-start;
+    }
+    .about h2 {
+        margin-right: 9.1rem;
+    }
 }

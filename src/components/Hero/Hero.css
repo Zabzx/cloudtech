@@ -41,6 +41,10 @@
 
 /* Mobile Design */
 @media only screen and (max-width: 600px) {
+
+    .hero {
+        height: 100vh
+    }
     .hero-flex {
         flex-direction: column;
         padding-top: 5rem;

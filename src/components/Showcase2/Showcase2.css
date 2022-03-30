@@ -55,3 +55,21 @@
 .s2-img img:hover {
     transform: rotate(0deg);
 }
+
+@media only screen and (max-width: 600px) {
+
+    .s2-flex {
+        flex-direction: column;
+    }
+    .s2-heading {
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .small {
+        padding-bottom: 2rem;
+    }
+}
