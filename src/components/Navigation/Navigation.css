@@ -72,6 +72,11 @@ nav {
     margin-top: 5px;
 }
 
+
+.no-scroll {
+    overflow-y: hidden;
+  }
+
 /* Mobile Design */
 @media only screen and (max-width: 600px) {
 
@@ -84,10 +89,36 @@ nav {
     }
 
     .nav-links {
-        display: none;
+        transform: translateX(100%);
+        transition: 400ms;
+        position: absolute;
+        flex-direction: column;
+        align-self: center;
+        justify-content: space-around;
+        height: 100vh;
+        background-color: #01A0C2;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+        overflow: hidden;
+    }
+
+    .nav-item + .nav-item {
+        margin-left: 0;
     }
 
     .nav-menu {
         display: block;
+        position: relative; z-index: 2;
+    }
+
+    .menu-line {
+        background-color: white;
     }
 }
