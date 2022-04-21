@@ -16,14 +16,14 @@ const Showcase2 = () => {
                 <div className="cards">
                     <div className="card">
                         <h2>Affordable Prices</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Best prices compared to competitors</p>
                     </div>
                     <div className="card2">
                         <h2>Best Warranties</h2>
-                        <p className='color-white'>Lorem ipsum dolor sit amet.</p>
+                        <p className='color-white'>Up to 5 years Warranty!</p>
                     </div>
                 </div>
-                <p className='small'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error aliquam, hic maiores nobis ab minus? Deleniti alias quam ex. Doloribus iusto quo totam officia? Beatae numquam laudantium culpa rerum autem!</p>
+                <p className='small'>Order 2 products and get the next one 25% off! We do giveaways every other week so make sure apply if you have purchased something within the month!</p>
             </div>
         </div>
         </div>
