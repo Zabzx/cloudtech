@@ -9,7 +9,7 @@ const Showcase1 = () => {
 
         <div className="s1-flex">
             <div className="s1-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac justo at ligula venenatis pharetra. Nulla molestie vitae lorem at laoreet. Nam justo lectus, sodales et massa sagittis, viverra vulputate</p>
+                <p>Stay up to date with the latest technology when shopping at Cloudtech. All the latest brands, trends you name it! We offer high end devices and always refresh out stock with new and improved tech.</p>
             </div>
 
             <div className="s1-img">
